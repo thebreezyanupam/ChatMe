@@ -1,16 +1,24 @@
-# chatme
+# ChatMe
 
-A new Flutter project.
+A real-time group chat app built with Flutter and Firebase. I made it as a college project in 2023 while I was learning Flutter, following a tutorial.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- Email sign-up and login with Firebase Authentication
+- Create groups, search for groups and join or leave them
+- Real-time group messaging with Cloud Firestore
+- Group info page showing the admin and members
+- Profile page, and you stay signed in between sessions
 
-A few resources to get you started if this is your first Flutter project:
+## Tech
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Flutter, Dart, Firebase Auth, Cloud Firestore, shared_preferences
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Run
+
+```bash
+flutter pub get
+flutter run
+```
+
+You'll need to connect your own Firebase project first.
